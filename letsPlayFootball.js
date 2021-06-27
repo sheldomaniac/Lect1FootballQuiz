@@ -1,6 +1,6 @@
  var readLIneSync = require('readline-sync');
 
-var highestUser = {username: "1234", score = "3"};
+var highestUser = {username: "1234", score : 3};
 
  console.log("Let's play a quiz on how well do you know football. \nThe quiz has 5 questions. Answer most questions correctly to win.")
  var currName = readLIneSync.question("Enter your name to continue: ");
